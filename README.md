@@ -1,17 +1,20 @@
 Não usei o Mysql pois o H2 é mais facil de acesso e instalação.
 
 Para rodar o projeto
-mvnw spring-boot:run
+mvn spring-boot:run
+mvn spring-boot:run -X
+
+mvn clean install
+mvn spring-boot:run
+
 
 Acesse o swagger
 http://localhost:8080/swagger-ui.html
 
 Acesso no banco
-
+http://localhost:8080/h2-console
 <!-- imagem -->
 
 Inserir dados
-INSERT INTO categoria (nome) VALUES ('Eletrônicos');
-INSERT INTO categoria (nome) VALUES ('Livros');
-INSERT INTO categoria (nome) VALUES ('Roupas');
+INSERT INTO produto(name,price) VALUES ('Farofa',20.0);
 
