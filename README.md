@@ -1,4 +1,6 @@
-![image](https://github.com/acebeR/springboot_curso/assets/33354360/561f2bff-2b59-4e3b-b09e-8ed70d59d134)
+
+![alt text](https://github.com/acebeR/springboot_curso/blob/master/img/teste.gif?raw=true)
+
 
 Para rodar o projeto
 mvn spring-boot:run
